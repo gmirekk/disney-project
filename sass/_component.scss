@@ -1,0 +1,48 @@
+.nav-btn {
+  width: 16rem;
+  background-color: #ff704b;
+  border-radius: 10rem;
+  padding: 1rem 0;
+  font-weight: 700;
+  letter-spacing: 1px;
+
+  a img {
+    height: 20px;
+    width: 20px;
+    margin-right: 0.5rem;
+  }
+
+  span {
+    color: $color-white;
+    text-transform: uppercase;
+    letter-spacing: 1.5;
+
+    a {
+      text-decoration: none;
+      color: $color-white;
+    }
+  }
+}
+
+.hero-btn {
+  font-size: 2rem;
+  text-transform: uppercase;
+  border-radius: 100px;
+  padding: 18px 57.5px;
+  color: $color-white;
+  border: solid 2px $color-white;
+}
+
+.btn-dark {
+  font-size: 1.8rem;
+  font-weight: 400;
+  background-color: $color-black;
+  color: $color-white;
+  border-radius: 100px;
+  padding: 1.4rem 4rem;
+
+  img {
+    margin-left: 1rem;
+    padding: 0.2rem;
+  }
+}
