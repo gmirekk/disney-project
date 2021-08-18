@@ -59,15 +59,15 @@ header {
     position: relative;
 
     &.slide-1 {
-      background-image: url(/img/hero-bg.jpg);
+      background-image: url(../img/hero-bg.jpg);
     }
 
     &.slide-2 {
-      background-image: url(/img/hero-bg-2.jpeg);
+      background-image: url(../img/hero-bg-2.jpeg);
     }
 
     &.slide-3 {
-      background-image: url(/img/hero-bg-3.jpeg);
+      background-image: url(../img/hero-bg-3.jpeg);
     }
 
     &:after {
@@ -172,8 +172,11 @@ header {
       padding-bottom: 0.2rem;
     }
   }
-
+  .movie-wrapper {
+    margin-left: 7.6%;
+  }
   .movie-slide-inner {
+    width: 100%;
     margin-left: 1rem;
     color: $color-white;
     font-size: 1.6rem;
